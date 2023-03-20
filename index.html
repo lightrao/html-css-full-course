@@ -2,16 +2,43 @@
 <html>
   <head>
     <title>A webpage with CSS</title>
+    <style>
+      p {
+        background-color: #111111;
+      }
+
+      #paragraph1 {
+        color: green;
+      }
+
+      #paragraph2 {
+        color: red;
+      }
+
+      .top {
+        font-family: fantasy;
+      }
+
+      p.up {
+        font-size: large;
+      }
+
+      h1,
+      h2 {
+        color: gold;
+      }
+    </style>
   </head>
   <body>
-    <h1 style="background-color: #111111; color: green">CSS Demo</h1>
-    <p>
+    <h1 class="top">CSS Demo</h1>
+    <h2 class="top">I love css :D</h2>
+    <p id="paragraph1" class="up">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam
       modi, fugit reprehenderit doloremque laboriosam cumque debitis ipsa nulla
       repellendus voluptatum, culpa quibusdam nesciunt? Debitis, natus
       voluptatum. Nobis, consequuntur. Repellat.
     </p>
-    <p>
+    <p id="paragraph2" class="down">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
       consectetur ut vel odit, soluta eligendi dolorem voluptas incidunt atque
       neque. Itaque eligendi quae recusandae sunt, omnis magnam necessitatibus
