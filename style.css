@@ -1,0 +1,24 @@
+p {
+    background-color: #111111;
+  }
+
+  #paragraph1 {
+    color: green;
+  }
+
+  #paragraph2 {
+    color: red;
+  }
+
+  .top {
+    font-family: fantasy;
+  }
+
+  p.up {
+    font-size: large;
+  }
+
+  h1,
+  h2 {
+    color: gold;
+  }
