@@ -1,16 +1,31 @@
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: underline wavy gray;
-  color: green;
-  background-color: navy;
+  border-style: solid;
+  border-width: 2px 3px 4px 5px;
+  border-width: 5px;
+  padding: 15px;
+  border-style: dashed;
+  border-style: dotted;
+  border-style: double;
+  border-style: ridge;
+  border-style: groove;
+  border-style: inset;
+  border-style: outset;
+  border-color: green;
+  border-radius: 5px;
+  border-radius: 10px;
 }
+
 h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: chartreuse;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-color: green;
 }
+
 body {
   background-color: black;
+  color: white;
 }
