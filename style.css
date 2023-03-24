@@ -1,0 +1,37 @@
+/* html {
+  margin-top: -21px;
+  margin-left: -8px;
+} */
+h1 {
+  border: 1px solid;
+  width: 300px;
+  margin: 25px;
+}
+p {
+  border: 1px solid;
+  width: 250px;
+  padding: 25px;
+}
+#p1 {
+  margin: 25px;
+}
+#p2 {
+  margin-top: 25px;
+  margin-right: 35px;
+  margin-bottom: 45px;
+  margin-left: 55px;
+  /* the same as  */
+  margin: 25px 35px 45px 55px;
+}
+#p3 {
+  margin: auto;
+}
+#p4 {
+  margin-left: auto;
+}
+#p5 {
+  margin-right: auto;
+}
+#p6 {
+  margin: 15%;
+}
