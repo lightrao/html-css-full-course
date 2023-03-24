@@ -1,0 +1,13 @@
+h1{
+    border:1px solid;
+    border-color:black;
+    width:250px;
+    padding:25px;
+    margin:40px;
+    background-color: black;
+    color:white;
+    
+    /* shadow: horizontal(px) vertical(px) blur(px) color (name, rgb, hex) */
+    text-shadow: 4px 4px 5px gold, 4px -2px 5px red;
+    box-shadow: 10px 10px 5px gray;
+}
