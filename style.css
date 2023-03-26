@@ -12,7 +12,11 @@ h1 {
   right: 50px; */
 
   /* relative to it's normal position */
-  position: relative;
+  /* position: relative;
   bottom: 20px;
-  left: 30px;
+  left: 30px; */
+
+  /* sticks to viewport when scrolling */
+  position: sticky;
+  top: 20px;
 }
