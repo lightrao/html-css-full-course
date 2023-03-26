@@ -1,25 +1,23 @@
-h1 {
-  border: 1px solid;
-  background-color: yellow;
+#box1 {
+  position: relative;
+  background-color: lightgray;
   width: 200px;
-  margin: 0px;
+  height: 200px;
+  border: 1px solid;
+  font-size: x-large;
 
-  /* fixed in place within viewport */
-  /* position: fixed; */
-  /* top: 50px;
-  left: 50px; */
-  /* bottom: 100px;
-  right: 50px; */
+  top: 100px;
+  left: 150px;
+}
+#box2 {
+  /* position relative to it's positioned ancestor */
+  position: absolute;
+  /* position: relative; */
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
 
-  /* relative to it's normal position */
-  /* position: relative;
-  bottom: 20px;
-  left: 30px; */
-
-  /* sticks to viewport when scrolling */
-  /* position: sticky;
-  top: 20px; */
-
-  /* default */
-  position: static;
+  top: 50px;
+  left: 50px;
 }
