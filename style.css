@@ -1,14 +1,11 @@
-#p1 {
-  text-align: left;
-}
-#p2 {
-  text-align: center;
-}
-#p3 {
-  text-align: right;
-}
-p {
-  background-color: yellow;
+div {
   border: 1px solid;
-  width: 250px;
+}
+img {
+  margin: 10px;
+  float: left;
+  float: right;
+}
+h1 {
+  text-align: center;
 }
