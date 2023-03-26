@@ -4,6 +4,7 @@ h1 {
   width: 200px;
   margin: 0px;
 
+  /* fixed in place within viewport */
   position: fixed;
   /* top: 50px;
   left: 50px; */
