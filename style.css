@@ -17,6 +17,9 @@ h1 {
   left: 30px; */
 
   /* sticks to viewport when scrolling */
-  position: sticky;
-  top: 20px;
+  /* position: sticky;
+  top: 20px; */
+
+  /* default */
+  position: static;
 }
