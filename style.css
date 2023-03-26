@@ -5,9 +5,14 @@ h1 {
   margin: 0px;
 
   /* fixed in place within viewport */
-  position: fixed;
+  /* position: fixed; */
   /* top: 50px;
   left: 50px; */
-  bottom: 100px;
-  right: 50px;
+  /* bottom: 100px;
+  right: 50px; */
+
+  /* relative to it's normal position */
+  position: relative;
+  bottom: 20px;
+  left: 30px;
 }
