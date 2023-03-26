@@ -1,0 +1,14 @@
+#p1 {
+  text-align: left;
+}
+#p2 {
+  text-align: center;
+}
+#p3 {
+  text-align: right;
+}
+p {
+  background-color: yellow;
+  border: 1px solid;
+  width: 250px;
+}
