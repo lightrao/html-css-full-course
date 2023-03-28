@@ -20,27 +20,17 @@
     background-color: blue;
   }
 }
-@keyframes mySevenColor {
+@keyframes myThreeColor {
   0% {
     background-color: red;
   }
-  15% {
-    background-color: orange;
-  }
-  30% {
+
+  33% {
     background-color: yellow;
   }
-  45% {
-    background-color: green;
-  }
-  60% {
+
+  66% {
     background-color: blue;
-  }
-  75% {
-    background-color: indigo;
-  }
-  90% {
-    background-color: purple;
   }
 }
 @keyframes myRotate {
@@ -69,7 +59,7 @@
 }
 @keyframes myScale {
   70% {
-    transform: scale(0.2, 0.3);
+    transform: scale(2, 3);
   }
 }
 @keyframes myOpacity {
