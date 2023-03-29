@@ -1,9 +1,9 @@
 ul {
   list-style-type: none;
+  background-color: gray;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
-  background-color: gray;
 }
 li a {
   float: left;
